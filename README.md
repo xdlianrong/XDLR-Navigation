@@ -28,8 +28,8 @@ Be sure to have [Node.js](https://nodejs.org/) installed before proceeding.
 
 ```shell
 # Clone the repo
-git clone https://github.com/twbs/bootstrap-npm-starter
-cd bootstrap-npm-starter
+git clone https://github.com/xdlianrong/XDLR-Navigation.git
+cd XDLR-Navigation
 
 # Install dependencies
 npm i
@@ -105,6 +105,15 @@ When your repository is generated, you won't see anything in the Actions tab unt
 
 [Learn more about GitHub Actions](https://github.com/features/actions), [read the Actions docs](https://help.github.com/en/actions), or [browse the Actions Marketplace](https://github.com/marketplace/actions).
 
+## Node.js Installation
+
+Install Node.js and npm on centos-7
+
+```
+sudo yum install nodejs
+node --version
+```
+
 ## Reference
 
 Bootstrap
@@ -121,9 +130,12 @@ CSS
 Icons
 
 - [Bootstrap Icons](https://icons.bootcss.com/)
-
 - [Simple Icons](https://www.bootcss.com/p/simple-icons/)
 - https://v4.bootcss.com/docs/extend/icons/
 - https://feathericons.com/
 - https://primer.style/octicons/
 - https://icons8.com/
+
+Install Node.js 
+
+- https://linuxize.com/post/how-to-install-node-js-on-centos-7/
