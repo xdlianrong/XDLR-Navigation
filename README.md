@@ -39,9 +39,11 @@ npm run css-compile
 
 # Watch Sass for changes (uses nodemon)
 npm run watch
+nohup npm run watch -- Run on background
 
 # Start local server (uses serve)
 npm run server
+nohup npm run server -- Run on background
 ```
 
 For the most straightforward development, open two Terminal tabs to execute `npm run server` and `npm run watch` at the same time.
@@ -105,15 +107,6 @@ When your repository is generated, you won't see anything in the Actions tab unt
 
 [Learn more about GitHub Actions](https://github.com/features/actions), [read the Actions docs](https://help.github.com/en/actions), or [browse the Actions Marketplace](https://github.com/marketplace/actions).
 
-## Node.js Installation
-
-Install Node.js and npm on centos-7
-
-```
-sudo yum install nodejs
-node --version
-```
-
 ## Reference
 
 bootstrap-npm-starter
@@ -140,6 +133,6 @@ Icons
 - https://primer.style/octicons/
 - https://icons8.com/
 
-Install Node.js 
+Node.js Installation
 
-- https://linuxize.com/post/how-to-install-node-js-on-centos-7/
+- https://computingforgeeks.com/how-to-install-nodejs-on-centos-fedora/
