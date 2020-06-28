@@ -39,11 +39,11 @@ npm run css-compile
 
 # Watch Sass for changes (uses nodemon)
 npm run watch
-nohup npm run watch -- Run on background
+nohup npm run watch & -- Run on background
 
 # Start local server (uses serve)
 npm run server
-nohup npm run server -- Run on background
+nohup npm run server & -- Run on background
 ```
 
 For the most straightforward development, open two Terminal tabs to execute `npm run server` and `npm run watch` at the same time.
