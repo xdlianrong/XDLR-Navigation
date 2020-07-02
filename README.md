@@ -8,12 +8,6 @@
 
 `bootstrap-npm-starter` is a GitHub template repository for creating new Bootstrap-powered npm projects, maintained by Bootstrap co-author @mdo. You can also use it as your own Bootstrap prototyping sandbox. It's built with Bootstrap v4.5.0 with plans to update for v5.
 
-[![Build Status](https://github.com/twbs/bootstrap-npm-starter/workflows/CI/badge.svg)](https://github.com/twbs/bootstrap-npm-starter/actions)
-
-## Repo template
-
-Setup as a starter template, you can easily generate a new GitHub repository. From the repository homepage, click the `Use this template` button.
-
 ## What's included
 
 - Single HTML page (`index.html`) to demonstrate how to include Bootstrap.
@@ -106,6 +100,22 @@ We've included some simple GitHub Actions in this template repo. When you genera
 When your repository is generated, you won't see anything in the Actions tab until you create a new pull request. You can customize these Actions, add new ones, or remove them outright if you wish.
 
 [Learn more about GitHub Actions](https://github.com/features/actions), [read the Actions docs](https://help.github.com/en/actions), or [browse the Actions Marketplace](https://github.com/marketplace/actions).
+
+## Deployment
+
+使用 [http-server](https://www.npmjs.com/package/http-server) 部署应用
+
+Installation globally via `npm`
+
+```
+npm install --global http-server
+```
+
+Running，default 8080
+
+```
+nohup http-server ./ -p 80 &
+```
 
 ## Reference
 
