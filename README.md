@@ -111,10 +111,10 @@ Installation globally via `npm`
 npm install --global http-server
 ```
 
-Running，default 8080
+Running，default port 8080
 
 ```
-nohup http-server ./ -p 80 &
+http-server ./ -p 80 > http.log 2>&1 &
 ```
 
 ## Reference
